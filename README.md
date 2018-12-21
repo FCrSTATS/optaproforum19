@@ -4,6 +4,9 @@
 
 ### December 1 - 14 
 
+###### 6 Dec 
+Got confirmation from Ryan than I can use different slide designs including this one: 
+cid:image002.png@01D48D97.5FC5E590
 
 ### December 15 - 31
 
