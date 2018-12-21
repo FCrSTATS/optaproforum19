@@ -19,6 +19,17 @@ Tried switching to Collabotory and loading files via Google Drive to overcome th
 ###### 21 Dec 
 Trying to get the EC2 instance connected with my S3 storage in order to copy all of the image data across to the instance for processing. Solution is mainly this -> https://optimalbi.com/blog/2016/07/12/aws-tips-and-tricks-moving-files-from-s3-to-ec2-instance/
 
+AWS install 
+
+Anaconda 3 Version to install 
+wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh
+
+Other packages to install 
+Tensorflow 
+Keras
+
+
+
 ### Reference 
 
 ###### Auto-Encoder
