@@ -10,6 +10,9 @@
 ###### 17 Dec 
 Good motivation having received some good feedback from Marek on the overall concept
 
+###### 21 Dec 
+Trying to get the EC2 instance connected with my S3 storage in order to copy all of the image data across to the instance for processing. Solution is mainly this -> https://optimalbi.com/blog/2016/07/12/aws-tips-and-tricks-moving-files-from-s3-to-ec2-instance/
+
 ### Reference 
 
 ###### Auto-Encoder
