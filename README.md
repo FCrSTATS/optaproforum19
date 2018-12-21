@@ -7,6 +7,8 @@
 
 ### December 15 - 31
 
+###### 17 Dec 
+Good motivation having received some good feedback from Marek on the overall concept
 
 ### Reference 
 
