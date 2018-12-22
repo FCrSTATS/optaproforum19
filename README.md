@@ -1,6 +1,20 @@
 # Dev-Log for Opta Pro Forum 2019 Presentation
+## GAZING INTO LATENT SPACE TO FIND AN EDGE WITH POSSESSION CHAINS
 
-### November 
+### The Landscape
+In August 2016, Marek Kwiatkowski laid out his vision for a new kind of analytics[ 1]. Encouraging the analytics community to zoom out from events on a unitary, singular, player-by-player level, thus allowing us to address the biggest so-far unexplored area of game - team dynamics of football, from a quantitative methodological perspective.
+
+Marek’s assertion being that there is a lack of knowledge of team dynamics and without it the entirety of current quantitative player analysis is put in doubt. Marek refutes the claim that we must wait for greater access to tracking data in order to close this gap and that event data itself already contains a richness of dynamics information. At which point, Marek highlights the power of possession chains as fundamental building blocks of the game and the analysis of which could bring great understanding. Understanding that can be utilised in it’s own right but also to be fed back into basic research to provide additional context and richer analysis.
+
+Since this article there has been a limited amount of public work published on the analysis of possession chains. There has not been a plethora of warriors rallied by Marek battle cries. The aim of my analysis is to contribute to Marek’s mission, establish some building blocks and show avenues to utility.
+
+### Core Methods
+Possession sequences for a large number of matches will be converted to chain maps which plots the path of the possession into a simple 128x128 single channel grayscale image (eventually possession paths will be shaded by sequential information in order to maintain the temporal dynamics context of the possession, not displayed below).
+
+An auto-encoder neural network will be utilised to compress the chain maps input data into smaller representations and create latent vectors of each possession sequence. Similar latent vectors = similar possession sequences. The possession sequences are now available in high-dimensional data which can be visualised via T-SNE, mapped and gridded. Opposite is a depiction of the end result with one random possession displayed per grid, (reduced significantly in size to demonstrate intended methodologies).
+
+
+### Dev-Log: November 
 
 ###### 27 Nov 
 After receiving some create help via twitter I (others) managed to get the parsing of f73 data to a very quick speeds! This was acheived via [parse73.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/parse_f73.py) which is supported via it's utility scripts [parse_f73_utils.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/parse_f73_utils.py). In addition to this I parsed the f73 data again to create a database of matches for later reference via this [gameinfo_parse.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/gameinfo_parse.py). 
@@ -8,7 +22,7 @@ After receiving some create help via twitter I (others) managed to get the parsi
 ###### 28 Nov 
 Completed a couple of data processing tasks to create some reference data to improve analysis later down the line. Firstly, a minutes played database to allowed per90 analysis later via [Minutes_Played_Process.R](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/Minutes_Played_Process.R). Secondly, a possession sequence database to help allocate credit to players involved [sequence_database_creation.R](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/sequence_database_creation.R).
 
-### December 1 - 14 
+### Dev-Log: December 1 - 14 
 
 ###### 1 Dec 
 I spent a while completing the construction of the sequence plots, trying work out the best size, some alignment issues and how to represent the passing of time in the best way. I ended up creating a custom colour scale to represent time, this was constructured from [ R colour spectrum](http://research.stowers.org/mcm/efg/R/Color/Chart/ColorsChart1.jpg) which I had had limited exposure to prior. 
@@ -35,7 +49,7 @@ latent_pred=model2.predict(data_test)
 
 I got a basic encoder working, that had pretty poor predictions but ensured that I have a workflow that actually worked before I added more layers and features to the neural network to improve the predictions. 
 
-### December 15 - 31
+### Dev-Log: December 15 - 31
 
 ###### 15 Dec 
 Worked out how to copy files direct to s3 from terminal -> https://qiita.com/alokrawat050/items/56820afdb6968deec6a2
