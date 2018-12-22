@@ -11,9 +11,11 @@ Completed a couple of data processing tasks to create some reference data to imp
 ### December 1 - 14 
 
 ###### 1 dec 
-Created the plots and created a custom colour scale to represent time, this was constructured from R colour spectrum which I had had limited exposure to prior: 
+I spent a while completing the construction of the sequence plots, trying work out the best size, some alignment issues and how to represent the passing of time in the best way. I ended up creating a custom colour scale to represent time, this was constructured from [ R colour spectrum](http://research.stowers.org/mcm/efg/R/Color/Chart/ColorsChart1.jpg) which I had had limited exposure to prior. 
 
-![alt text](http://research.stowers.org/mcm/efg/R/Color/Chart/ColorsChart1.jpg)
+This is what I ended up with, 128px by 128px squares, 5 randomly selected:
+
+![alt_text](https://github.com/FCrSTATS/optaproforum19/blob/master/images/Unknown.png)
 
 ###### 6 Dec 
 Got confirmation from Ryan than I can use different slide designs including this one: 
