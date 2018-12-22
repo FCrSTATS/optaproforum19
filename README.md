@@ -4,6 +4,11 @@
 
 ### December 1 - 14 
 
+###### 1 dec 
+Created the plots and created a custom colour scale to represent time, this was constructured from R colour spectrum which I had had limited exposure to prior: 
+
+![alt text](http://research.stowers.org/mcm/efg/R/Color/Chart/ColorsChart1.jpg)
+
 ###### 6 Dec 
 Got confirmation from Ryan than I can use different slide designs including this one: 
 cid:image002.png@01D48D97.5FC5E590
