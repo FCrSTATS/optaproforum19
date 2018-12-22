@@ -10,6 +10,9 @@ cid:image002.png@01D48D97.5FC5E590
 
 ### December 15 - 31
 
+###### 15 Dec 
+Worked out how to copy files direct to s3 from terminal -> https://qiita.com/alokrawat050/items/56820afdb6968deec6a2
+
 ###### 17 Dec 
 Good motivation having received some good feedback from Marek on the overall concept
 
