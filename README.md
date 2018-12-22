@@ -13,7 +13,7 @@ Completed a couple of data processing tasks to create some reference data to imp
 ###### 1 Dec 
 I spent a while completing the construction of the sequence plots, trying work out the best size, some alignment issues and how to represent the passing of time in the best way. I ended up creating a custom colour scale to represent time, this was constructured from [ R colour spectrum](http://research.stowers.org/mcm/efg/R/Color/Chart/ColorsChart1.jpg) which I had had limited exposure to prior. 
 
-This is what I ended up with, 128px by 128px squares, 5 randomly selected:
+Via [image_creation_final.R](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/image_creation_final.R), this is what I ended up with, 128px by 128px squares, 5 randomly selected:
 
 ![alt_text](https://github.com/FCrSTATS/optaproforum19/blob/master/images/Unknown.png)
 
