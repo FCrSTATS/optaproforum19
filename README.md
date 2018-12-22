@@ -5,6 +5,9 @@
 ###### 27 Nov 
 After receiving some create help via twitter I (others) managed to get the parsing of f73 data to a very quick speeds! This was acheived via [parse73.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/parse_f73.py) which is supported via it's utility scripts [parse_f73_utils.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/parse_f73_utils.py). In addition to this I parsed the f73 data again to create a database of matches for later reference via this [gameinfo_parse.py](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/gameinfo_parse.py). 
 
+###### 28 Nov 
+Completed a couple of data processing tasks to create some reference data to improve analysis later down the line. Firstly, a minutes played database to allowed per90 analysis later via [Minutes_Played_Process.R](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/Minutes_Played_Process.R). Secondly, a possession sequence database to help allocate credit to players involved [sequence_database_creation.R](https://github.com/FCrSTATS/optaproforum19/blob/master/scripts/sequence_database_creation.R).
+
 ### December 1 - 14 
 
 ###### 1 dec 
