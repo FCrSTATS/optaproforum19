@@ -22,12 +22,18 @@ Got confirmation from Ryan than I can use different slide designs including this
 cid:image002.png@01D48D97.5FC5E590
 
 ###### 10 Dec
-Spening a lot of time to repurpose the fanstastic [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html) by [François Chollet](https://twitter.com/fchollet). Eventually deciding on the CNN as my model of choice. Having played around the functional API I decided to go for the sequential API - lots of info in this [guide](https://keras.io/getting-started/sequential-model-guide/). The sequential was all that was really needed for my purposes as the functional API has a lot more feautures and power that I wasn't going to use. The sequential model also allowed me to access the encoded layer with less fuss (I am sure you can access it through the functional API but I couldn't get it to work). This was acheived by: 
+A key element of my analysis framework relied on the creation of an autoencoder - which can be displayed as such: 
+
+![alt_text](https://cdn-images-1.medium.com/max/1600/1*44eDEuZBEsmG_TCAKRI3Kw@2x.png)
+
+Spening a lot of time to repurpose the fanstastic [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html) by [François Chollet](https://twitter.com/fchollet). Eventually deciding on the CNN as my model of choice. Having played around with the functional API I decided to go for the sequential API - lots of info in this [guide](https://keras.io/getting-started/sequential-model-guide/). The sequential was all that was really needed for my purposes as the functional API has a lot more feautures and power that I wasn't going to use. The sequential model also allowed me to access the encoded layer with less fuss (I am sure you can access it through the functional API but I couldn't get it to work). This was acheived by: 
 
 ```python
 model2= model(model.input,model.get_layer("grab_that").output) 
 latent_pred=model2.predict(data_test)
 ```
+
+I got a basic encoder working, that had pretty poor predictions but ensured that I have a workflow that actually worked before I added more layers and features to the neural network to improve the predictions. 
 
 ### December 15 - 31
 
