@@ -21,6 +21,14 @@ Via [image_creation_final.R](https://github.com/FCrSTATS/optaproforum19/blob/mas
 Got confirmation from Ryan than I can use different slide designs including this one: 
 cid:image002.png@01D48D97.5FC5E590
 
+###### 10 Dec
+Spening a lot of time to repurpose the fanstastic [Building Autoencoders in Keras](https://blog.keras.io/building-autoencoders-in-keras.html) by [François Chollet](https://twitter.com/fchollet). Eventually deciding on the CNN as my model of choice. Having played around the functional API I decided to go for the sequential API - lots of info in this [guide](https://keras.io/getting-started/sequential-model-guide/). The sequential was all that was really needed for my purposes as the functional API has a lot more feautures and power that I wasn't going to use. The sequential model also allowed me to access the encoded layer with less fuss (I am sure you can access it through the functional API but I couldn't get it to work). This was acheived by: 
+
+```python
+model2= model(model.input,model.get_layer("grab_that").output) 
+latent_pred=model2.predict(data_test)
+```
+
 ### December 15 - 31
 
 ###### 15 Dec 
