@@ -86,7 +86,8 @@ Keras
 
 ###### T-SNE
 1. https://distill.pub/2016/misread-tsne/ - Great guide
-
+2. https://medium.com/@layog/i-dont-understand-t-sne-part-1-50f507acd4f9 - Deeper dive Part 1
+3. https://medium.com/@layog/i-do-not-understand-t-sne-part-2-b2f997d177e3 - Deeper dive Part 2
 
 ###### AWS 
 1. https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/ - Instance setup
