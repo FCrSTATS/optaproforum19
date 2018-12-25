@@ -63,6 +63,9 @@ Tried switching to Collabotory and loading files via Google Drive to overcome th
 ###### 21 Dec 
 Trying to get the EC2 instance connected with my S3 storage in order to copy all of the image data across to the instance for processing. Solution is mainly this -> https://optimalbi.com/blog/2016/07/12/aws-tips-and-tricks-moving-files-from-s3-to-ec2-instance/
 
+###### 24 Dec
+Big progress
+
 AWS install 
 
 Anaconda 3 Version to install 
@@ -82,6 +85,7 @@ Keras
 2. https://keras.io/getting-started/sequential-model-guide/ - further detail on sequential models  
 
 ###### T-SNE
+1. https://distill.pub/2016/misread-tsne/ - Great guide
 
 
 ###### AWS 
