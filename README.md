@@ -80,6 +80,9 @@ Keras
 
 ### Reference 
 
+###### Literature Review
+1. https://dtai.cs.kuleuven.be/events/MLSA18/papers/bransen_mlsa18.pdf - Measuring football players’ on-the-ball contributions from passes during games
+
 ###### Auto-Encoder
 1. https://blog.keras.io/building-autoencoders-in-keras.html - base inspiration
 2. https://keras.io/getting-started/sequential-model-guide/ - further detail on sequential models  
