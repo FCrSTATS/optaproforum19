@@ -85,7 +85,8 @@ Keras
 
 ###### Auto-Encoder
 1. https://blog.keras.io/building-autoencoders-in-keras.html - base inspiration
-2. https://keras.io/getting-started/sequential-model-guide/ - further detail on sequential models  
+2. https://keras.io/getting-started/sequential-model-guide/ - further detail on sequential models 
+3. https://blogs.rstudio.com/tensorflow/posts/2019-01-08-getting-started-with-tf-probability/ - other options
 
 ###### T-SNE
 1. https://distill.pub/2016/misread-tsne/ - Great guide
